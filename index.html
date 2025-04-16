@@ -171,14 +171,13 @@
       📍 地點：石排灣邨碧銀樓平台 1 號
     </div>
 
-    <!-- 表單開始 -->
     <form id="teamForm"
       action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScZh82nB7DhLMypvGJSl4exqFDNNH1nYcBMlVVgaVlnTMPhAw/formResponse"
       method="POST" target="hidden_iframe" onsubmit="handleSubmit(event)">
 
       <!-- 組長 -->
       <input type="text" name="entry.1660667875" placeholder="組長姓名" required />
-      <input type="tel" name="entry.1381860621" placeholder="組長聯絡電話" required />
+      <input type="tel" name="entry.1381860631" placeholder="組長聯絡電話" required />
 
       <!-- 第一位 -->
       <input type="text" name="entry.131484445" placeholder="第一位隊員姓名" />
@@ -196,7 +195,6 @@
       <input type="text" name="entry.1706955507" placeholder="第四位隊員姓名" />
       <input type="number" name="entry.1181156604" placeholder="第四位隊員年齡" />
 
-      <!-- 送出按鈕 -->
       <button type="submit" class="cta-button">成為挑戰者</button>
     </form>
 
@@ -204,7 +202,6 @@
     <iframe name="hidden_iframe" id="hidden_iframe"></iframe>
   </div>
 
-  <!-- JS -->
   <script>
     function handleSubmit(event) {
       event.preventDefault();
